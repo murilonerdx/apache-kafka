@@ -37,7 +37,7 @@ services:
       KAFKA_BROKERCONNECT: kafka:29092
 
   payment:
-    image: murilonerdx/payment:1.0.1
+    image: murilonerdx/payment
     networks:
       - broker-kafka
     depends_on:
